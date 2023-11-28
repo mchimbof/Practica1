@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainProceso">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="0dp"
+        android:text="Recibe Saludo"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtSaludo"
+        android:layout_width="235dp"
+        android:layout_height="93dp"
+        android:textStyle="italic"
+        android:textSize="19dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="94dp"
+        android:hint="Datos Saludos"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnAtras"
+        android:layout_width="100dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="226dp"
+        android:text="Atras"
+        android:onClick="ATRAS"
+        />
+
+</RelativeLayout>
